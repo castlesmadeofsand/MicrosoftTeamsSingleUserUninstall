@@ -1,0 +1,12 @@
+cd c:\
+cd "c:\users\%USERNAME%\AppData\Local\Microsoft\Teams"
+update.exe --uninstall -s
+cd c:\
+echo y | del "C:\users\%USERNAME%\AppData\Local\Microsoft\SquirrelTemp" /f
+echo y | del "C:\users\%USERNAME%\AppData\Local\Microsoft\Teams" /f
+echo y | del "C:\Users\%username%\AppData\Local\Microsoft\TeamsMeetingAddin\" /f
+echo y | del "C:\users\%USERNAME%\AppData\Local\Microsoft\TeamsPresenceAddin" /f
+echo y | del "C:\Users\%username%\AppData\Local\SquirrelTemp" /f
+echo y | del "C:\Users\%USERNAME%\AppData\Roaming\Microsoft Teams" /f
+echo y | del "C:\Users\%USERNAME%\AppData\Roaming\Teams" /f
+echo y | del "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\teams" /f
