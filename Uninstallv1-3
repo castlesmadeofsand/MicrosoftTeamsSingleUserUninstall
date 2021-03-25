@@ -1,0 +1,3 @@
+After you have run uninstallv1-1 and uninstallv1-2, the user will need to clear their browser cookies and browser cache.  This would also be a good time to make sure their web browser is up-to-date.
+
+At this point, you should be able to use Teams in the web browser without any issues.  If it is still not working, it would be best to search through the registry and carefully delete any references to teams and squirrel.
