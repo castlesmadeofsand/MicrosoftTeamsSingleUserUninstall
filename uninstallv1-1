@@ -1,3 +1,4 @@
+##run this in the user's context#
 cd c:\
 cd "c:\users\%USERNAME%\AppData\Local\Microsoft\Teams"
 update.exe --uninstall -s
